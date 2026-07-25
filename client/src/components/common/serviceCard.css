@@ -1,0 +1,45 @@
+.service-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px 25px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+}
+
+.service-icon {
+  margin-bottom: 20px;
+}
+
+.service-card h3 {
+  color: #0F4C81;
+  margin-bottom: 12px;
+  font-size: 22px;
+}
+
+.service-card p {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.service-card button {
+  background: #FF6B00;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.service-card button:hover {
+  background: #e65f00;
+}
